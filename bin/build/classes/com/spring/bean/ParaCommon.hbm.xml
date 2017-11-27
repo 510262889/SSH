@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.spring.bean">
+    <class name="ParaCommon" table="PARA_COMMON">
+        <id name="sid"/>
+        <property name="r_group"/>
+        <property name="c_code"/>
+        <property name="c_value"/>
+        <property name="c_value1"/>
+        <property name="c_value2"/>
+        <property name="c_remark"/>
+        <property name="b_reserved"/>
+        <property name="b_valid"/>
+        <property name="r_create"/>
+        <property name="s_create"/>
+        <property name="t_create"/>
+        <property name="r_update"/>
+        <property name="s_update"/>
+        <property name="t_update"/>
+        <property name="c_update_host"/>
+        <property name="c_update_agent"/>
+        <property name="c_update_version"/>
+        <property name="n_index"/>
+        <property name="b_delete"/>
+    </class>
+</hibernate-mapping>
